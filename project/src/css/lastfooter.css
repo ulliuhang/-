@@ -1,0 +1,42 @@
+.lastfooter{
+    width: 100%;
+    height: 152px;
+    background: #333333;
+
+}
+.lastfooterWrap{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 26px;
+}
+.lastfooterWrap a{
+    text-decoration: none;
+    color: #c2c2c2;
+    display: inline-block;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+.lastfooterWrap span{
+    color: #c2c2c2;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.L-one{
+    margin-left: 45%;
+}
+.L-two{
+    margin-left: 28%;
+}
+.two,.three,.four{
+    margin-right: 20px;
+}
+.jinghui{
+    margin-left: 17%;
+}
+.five{
+    margin-left: 40%;
+}

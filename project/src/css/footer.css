@@ -1,0 +1,52 @@
+.footerTop {
+  width: 100%;
+  height: 400px;
+  background: grey;
+}
+.footerWrap {
+  width: 1090px;
+  height: 400px;
+  margin: 0 auto;
+  background: hotpink;
+}
+.footerWrap .top img {
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+.footerWrap .bottom {
+  background: indigo;
+}
+.footerWrap .bottom .left .erweima img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.footerWrap .bottom .left .big {
+  position: relative;
+}
+.footerWrap .bottom .left .bigPic_1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: none;
+}
+.footerWrap .bottom .left .bigPic_2 {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  display: none;
+}
+.footerWrap .bottom .rightcont {
+  margin-top: 20px;
+}
+.footerWrap .bottom .rightcont ul {
+  float: left;
+  margin-right: 30px;
+}
+.footerWrap .bottom .rightcont ul li {
+  line-height: 30px;
+}
+.footerWrap .bottom .rightcont ul li:hover {
+  text-decoration: underline;
+}

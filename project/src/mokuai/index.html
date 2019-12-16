@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="../project/src/css/global.css">
+</head>
+
+<body>
+    <div class="box"></div>
+    <script>
+        // var dd = document.querySelectorAll(".goods-list");
+        // var ff = document.querySelectorAll(".m-fenceTitle");
+        // var data_Big = [];
+        // for (let s = 0; s < dd.length; s++) {
+        //     let oli = dd[s].querySelectorAll("li");
+        //     let off = ff[s].innerText;
+        //     var data = [];
+        //     let obj1 = {};
+        //     for (var i = 0, len = oli.length; i < len; i++) {
+        //         var arr = {};
+        //         var obj = oli[i];
+        //         arr.src = obj.querySelector("img").src;
+        //         arr.goodsTitle = oli[i].querySelector(".goods-title").innerText;
+        //         arr.goodsIntroduce = oli[i].querySelector(".goods-introduce").innerText;
+        //         arr.price = oli[i].querySelector(".price").innerText;
+        //         arr.buy = oli[i].querySelector(".goods-btn-span").innerText;
+        //         data.push(arr);
+        //     }
+        //     obj1.center = off;
+        //     obj1.data = data;
+
+        //     data_Big.push(obj1);
+        // }
+    </script>
+    <script>
+        var arr = main.map(function(ele) {
+            // console.log(ele);
+            let data = ele.data.map(function(ele){
+                return `<li class="M-lis">
+                        <img src=${ele.src} class="M-img">
+                        <p class="goodsTitle">${ele.goodsTitle}</p>
+                        <p class="goodsIntroduce">${ele.goodsIntroduce}</p>
+                        <span class="price">${ele.price}</span>
+                        <span class="buy">${ele.buy}</span>
+                    <li>`
+            }).join("");
+            return `<div class="big-div">
+            <div class="center">${ele.center}</div>
+            <ul>${data}</ul>
+            </div>
+            `
+        }).join("");
+        console.log(arr);
+        let oBox = document.getElementsByClassName("box")[0];
+        oBox.innerHTML = arr;
+    </script>
+</body>
+
+</html>

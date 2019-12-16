@@ -1,0 +1,268 @@
+/* <!-- head头部 --> */
+#j-topbanner-anchor {
+    width: 100%;
+}
+
+#j-topbanner-anchor img {
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+/* <!-- second二楼 --> */
+
+#second {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+}
+
+#topNavWrap {
+    width: 1090px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.left {
+    vertical-align: bottom;
+}
+
+.right {
+    vertical-align: bottom;
+    float: right;
+}
+
+/* <!-- third三楼 --> */
+#third {
+    width: 100%;
+    height: 640px;
+    background-image: url(https://haitao.nos.netease.com/5ea0cfc4-e31f-4582-87b6-e478a6bf6131T1912071642_1920_520.jpg);
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+
+}
+
+.thirdBox {
+    position: relative;
+}
+
+.loginBox {
+    width: 349px;
+    height: 426px;
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    background: #FFFFFF;
+}
+
+.loginTop {
+    /* background: #195; */
+    border-bottom: 1px solid gray;
+    background: #f8f8f8;
+}
+
+.loginBox .loginWay {
+    width: 162px;
+    font-size: 16px;
+    height: 52px;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+}
+
+.loginCenter {
+    width: 349px;
+    margin-top: 20px;
+}
+
+.loginCenter .hint {
+    color: #666666;
+    margin-left: 230px;
+    text-decoration: none;
+    /* background: url(//haitao.nos.netease.com/6315f6c8-5227-4ca5-9e45-e21557db8eb5_84_125.png) no-repeat;
+    background-position: 0px 2px; */
+}
+.hint:hover{
+    color: red;
+}
+#phoneNum {
+    width: 270px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 39px;
+}
+
+.phone {
+    margin-bottom: 40px;
+}
+
+#yzNum {
+    width: 173px;
+    height: 30px;
+    margin-left: 39px;
+}
+
+.yzText {
+    width: 93px;
+    height: 34px;
+    color: #33333333;
+    font-size: 14px;
+    display: inline-block;
+    /* vertical-align: bottom; */
+    text-align: center;
+    line-height: 34px;
+    background-color: #eeeeee;
+}
+#emailNum {
+    width: 270px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 39px;
+}
+
+.email {
+    margin-bottom: 40px;
+}
+
+#passwordNum {
+    width: 270px;
+    height: 30px;
+    margin-left: 39px;
+}
+
+.verification {
+    margin-bottom: 40px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.btn button {
+    width: 270px;
+    height: 36px;
+    margin-left: 39px;
+    background: #E31436;
+    border: none;
+    /* outline: none; */
+}
+
+.event {
+    width: 270px;
+    height: 36px;
+    margin-left: 39px;
+    vertical-align: bottom;
+}
+.event label{
+    color: #999999;
+}
+
+.eventRight {
+    color: #999999;
+    text-decoration: none;
+    float: right;
+}
+.eventRight:hover{
+    color: red;
+    text-decoration: none;
+}
+.agreement {
+    margin-left: 39px;
+    color: #999999;
+}
+
+.agreement a {
+    text-decoration: underline;
+    color: #999999;
+}
+
+.loginFooter {
+    width: 349px;
+    height: 40px;
+    background: #f8f8f8;
+}
+.loginFooter a{
+    color: red;
+}
+
+.loginFooter a:hover{
+    text-decoration: underline;
+}
+.loginFooter ul {
+    width: 160px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 39px;
+    float: left;
+}
+.loginFooter ul li{
+    float: left;
+}
+.taobaoIcon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(https://haitao.nos.netease.com/673f1b61-0092-41c0-8283-493b202da9a3_60_60.png);
+    background-size: 22px 22px;
+}
+.zhifubaoIcon img{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-size: 22px 22px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.active{
+    color: red;
+}
+.current{
+    display: none;
+}
+/* footer底部 */
+.lastfooter{
+    width: 100%;
+    height: 152px;
+    background: #FFFFFF;
+
+}
+.lastfooterWrap{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 26px;
+}
+.lastfooterWrap a{
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+.lastfooterWrap span{
+    color: #666666;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.one{
+    margin-left: 45%;
+}
+.two{
+    margin-left: 28%;
+}
+.two,.three,.four{
+    margin-right: 20px;
+}
+.jinghui{
+    margin-left: 17%;
+}
+.five{
+    margin-left: 40%;
+}
